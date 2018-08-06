@@ -1,0 +1,7 @@
+# Browsers that we support
+
+defaults
+last 2 versions
+> 1%
+IE 10
+cover 99.5%
