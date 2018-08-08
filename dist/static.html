@@ -13,14 +13,14 @@
     <title>Calendario Criptomonedas</title>
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-</head>
+<link href="main.css" rel="stylesheet"></head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <header class="masthead">
+    <header class="masthead masthead--page">
         <div class="content-wrapper">
             <h1 class="branding">
                 <a href="/" class="branding__logo">
@@ -93,263 +93,30 @@
             </div>
         </div>
     </header>
-    <section class="hero">
-        <div class="content-wrapper">
-            <h2 class="hero__title">Crypto Calendar</h2>
-            <h3 class="hero__subtitle">always on top of all events in cryptocurrency world</h3>
-        </div>
-    </section>
-    <div class="calendar-carousel">
-        <div class="calendar-inner">
-            <button class="calendar-carousel__arrow" id="prev-arrow-carousel">
-                <svg class="arrow-carousel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.678 24" width="12">
-                    <path fill="#35a7ff" d="M12.482 11.522L1.161.2a.67952962.67952962 0 1 0-.961.961L11.039 12 .2 22.838A.682.682 0 0 0 .678 24a.663.663 0 0 0 .478-.2l11.322-11.322a.675.675 0 0 0 .004-.956z"
-                        data-name="Path 6" />
-                </svg>
-            </button>
-            <button class="calendar-carousel__arrow" id="next-arrow-carousel">
-                <svg class="arrow-carousel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.678 24" width="12">
-                    <path fill="#35a7ff" d="M12.482 11.522L1.161.2a.67952962.67952962 0 1 0-.961.961L11.039 12 .2 22.838A.682.682 0 0 0 .678 24a.663.663 0 0 0 .478-.2l11.322-11.322a.675.675 0 0 0 .004-.956z"
-                        data-name="Path 6" />
-                </svg>
-            </button>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Sun</span>
-                    <span class="date__month">Jul</span>
-                </div>
-                <span class="date__day-number">29</span>
-            </div>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Mon</span>
-                    <span class="date__month">Jul</span>
-                </div>
-                <span class="date__day-number">30</span>
-            </div>
-            <div class="calendar-carousel__item is-active">
-                <div class="date">
-                    <span class="date__day">Tue</span>
-                    <span class="date__month">Jul</span>
-                </div>
-                <span class="date__day-number">31</span>
-            </div>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Wed</span>
-                    <span class="date__month">Aug</span>
-                </div>
-                <span class="date__day-number">1</span>
-            </div>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Thu</span>
-                    <span class="date__month">Aug</span>
-                </div>
-                <span class="date__day-number">2</span>
-            </div>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Fri</span>
-                    <span class="date__month">Aug</span>
-                </div>
-                <span class="date__day-number">3</span>
-            </div>
-            <div class="calendar-carousel__item">
-                <div class="date">
-                    <span class="date__day">Sat</span>
-                    <span class="date__month">Aug</span>
-                </div>
-                <span class="date__day-number">4</span>
-            </div>
-        </div>
-    </div>
     <main class="main-content content-wrapper">
-        <ul class="cards-grid">
-            <li class="card card--alta">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--baja">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--media">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--alta">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--alta">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--baja">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--media">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-            <li class="card card--alta">
-                <ul class="tags">
-                    <span class="badge alta">Alta</span>
-                    <span class="badge baja">Baja</span>
-                    <span class="badge media">Media</span>
-                </ul>
-                <span class="card__date">03 August 2018</span>
-                <h2 class="card__title">DocCoin(DOC)</h2>
-                <h3 class="card__subtitle">DocCoin Report</h3>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                <div class="card__buttons">
-                    <a href="#" class="btn card__button" title="Alert">Alert</a>
-                    <a href="#" class="btn card__button" title="Source">Source</a>
-                </div>
-                <a href="#" class="card__link" title="Compra Bitcoin en España">Compra Bitcoin en España</a>
-            </li>
-        </ul>
-        <div class="cards-pagination">
-            <nav class="pagination">
-                <ul class="pagination-list">
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__arrow" id="prev-arrow">
-                            <svg class="pagination-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.7 8" width="5">
-                                <g data-name="Group 8">
-                                    <path fill="#35a7ff" d="M3.121 4L.128 6.993a.439.439 0 0 0 0 .619l.262.26a.438.438 0 0 0 .619 0l3.563-3.563a.442.442 0 0 0 0-.621L1.012.128a.438.438 0 0 0-.619 0L.131.39a.438.438 0 0 0 0 .619z"
-                                        data-name="Path 18" />
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number is-active">1</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">2</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">3</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">4</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">5</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">...</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__number">7</a>
-                    </li>
-                    <li class="pagination-list__item">
-                        <a href="#" class="pagination-list__arrow" id="next-arrow">
-                            <svg class="pagination-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.7 8" width="5">
-                                <g data-name="Group 8">
-                                    <path fill="#35a7ff" d="M3.121 4L.128 6.993a.439.439 0 0 0 0 .619l.262.26a.438.438 0 0 0 .619 0l3.563-3.563a.442.442 0 0 0 0-.621L1.012.128a.438.438 0 0 0-.619 0L.131.39a.438.438 0 0 0 0 .619z"
-                                        data-name="Path 18" />
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <h2 class="page-title">Lorem Ipsum Title</h2>
+        <p class="page-description">Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements
+            in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and
+            the form of the content before the content has been created, giving the design and production process more freedom.
+            It is widely believed that the history of Lorem Ipsum originates with Cicero in the 1st Century BC and his text
+            De Finibus bonorum et malorum. This philosophical work, also known as On the Ends of Good and Evil, was split
+            into five books. The Lorem Ipsum we know today is derived from parts of the first book Liber Primus and its discussion
+            on hedonism, the words of which had been altered, added and removed to make it nonsensical and improper Latin.
+            It is not known exactly when the text gained its current traditional form. However references to the phrase "lorem
+            ipsum" can be found in the 1914 Loeb Classical Library Edition of the De Finibus in sections 32 and 33. It was
+            in this edition of the De Finibus that H. Rackman translated the text. The following excerpt is taken from section
+            32: "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora
+            incidunt, ut labore et dolore magnam aliquam quaerat voluptatem". This is recognisable, in part, as today's standard
+            Lorem Ipsum and was translated into: "Nor again is there anyone who loves or pursues or desires to obtain pain
+            of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some
+            great pleasure". Advancing to the 1960s, Lorem Ipsum was made popular by typeface manufacturer Letraset, who
+            used it in their advertising campaigns. Letraset offered pages of Lorem Ipsum as rub down transfer sheets, which
+            were widely used in the pre-computer era for layouts. These transfer pages, known as Letraset Body Type, were
+            featured in the company's advertising and their popular catalogue. Lorem Ipsum was reintroduced in the 1980s
+            by the Aldus Corporation, a company that developed Desktop Publishing Software. Their most well known product
+            PageMaker came with pre-installed graphics and word-processing templates containing a version of the faux latin
+            language.
+        </p>
     </main>
     <footer class="footer">
         <div class="content-wrapper">
@@ -438,6 +205,6 @@
         </form>
     </div>
     <!-- Scripts -->
-</body>
+<script type="text/javascript" src="bundle.js"></script></body>
 
 </html>

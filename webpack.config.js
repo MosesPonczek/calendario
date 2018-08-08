@@ -60,6 +60,18 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html'
         }),
+        new HtmlWebpackPlugin({
+            filename: 'event.html',
+            template: './src/event.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'contact.html',
+            template: './src/contact.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'static.html',
+            template: './src/static.html'
+        }),
         new UglifyJsPlugin(),
         new MiniCssExtractPlugin({
             filename: "[name].css",

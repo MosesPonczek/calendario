@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.7 8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #35a7ff;
+      }
+    </style>
+  </defs>
+  <g id="arrow-pagination" transform="translate(106.18 8) rotate(180)">
+    <g id="Group_8" data-name="Group 8" transform="translate(101.48 0)">
+      <path id="Path_18" data-name="Path 18" class="cls-1" d="M103.059,4l2.993-2.993a.439.439,0,0,0,0-.619L105.79.128a.438.438,0,0,0-.619,0l-3.563,3.563a.442.442,0,0,0,0,.621l3.56,3.56a.438.438,0,0,0,.619,0l.262-.262a.438.438,0,0,0,0-.619Z" transform="translate(-101.48 0)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.269 20.269">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="bell" transform="translate(-26.017 -36.411) rotate(45)">
+    <g id="Group_2" data-name="Group 2" transform="translate(51.493)">
+      <g id="Group_1" data-name="Group 1" transform="translate(0)">
+        <path id="Path_1" data-name="Path 1" class="cls-1" d="M175.207,404.514s0,.009,0,.014a2.134,2.134,0,0,0,4.268,0s0-.009,0-.014Z" transform="translate(-170.359 -388.662)"/>
+        <path id="Path_2" data-name="Path 2" class="cls-1" d="M65.289,13.184l-1.921-2.822V6.842a4.895,4.895,0,0,0-3.934-4.8V.96a.96.96,0,0,0-1.919,0V2.044a4.895,4.895,0,0,0-3.934,4.8v3.52l-1.921,2.822a.97.97,0,0,0,.8,1.516H64.487a.97.97,0,0,0,.8-1.516Z" transform="translate(-51.493)"/>
+      </g>
+    </g>
+  </g>
+</svg>

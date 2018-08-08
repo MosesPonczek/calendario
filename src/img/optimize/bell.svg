@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.269 20.269">
+  <defs/>
+  <g transform="rotate(45 30.94346501 -49.61079713)">
+    <g data-name="Group 2" transform="translate(51.493)">
+      <g data-name="Group 1">
+        <path d="M175.207 404.514v.014a2.134 2.134 0 0 0 4.268 0v-.014z" class="cls-1" data-name="Path 1" transform="translate(-170.359 -388.662)"/>
+        <path d="M65.289 13.184l-1.921-2.822v-3.52a4.895 4.895 0 0 0-3.934-4.8V.96a.96.96 0 0 0-1.919 0v1.084a4.895 4.895 0 0 0-3.934 4.8v3.52l-1.921 2.822a.97.97 0 0 0 .8 1.516h12.027a.97.97 0 0 0 .8-1.516z" class="cls-1" data-name="Path 2" transform="translate(-51.493)"/>
+      </g>
+    </g>
+  </g>
+</svg>
