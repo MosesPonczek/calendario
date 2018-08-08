@@ -1,0 +1,81 @@
+// Responsive styles
+
+@media screen and (max-width: 1170px) {
+    .cards-grid {
+        .card {
+            width: calc(50% - 30px);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+        &__item {
+            margin: 10px 0;
+        }
+        &__divider {
+            display: none;
+        }
+    }
+    #next-arrow-carousel {
+        right: 0;
+    }
+    #prev-arrow-carousel {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .masthead {
+        & .content-wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .branding {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .hero {
+        min-height: 800px;
+        padding-top: 300px;
+    }
+    .cards-grid {
+        .card {
+            width: calc(100% - 30px);
+        }
+    }
+    .pagination {
+        &-list {
+            &__item {
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .masthead-widgets {
+        flex-direction: column;
+        justify-content: center;
+        &__event {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    }
+}
+
+// HEIGHT
+
+@media screen and (max-height: 560px) {
+    .modal {
+        position: absolute;
+        overflow: auto;
+        top: 100%;
+    }
+}
